@@ -1,0 +1,33 @@
+header {
+  justify-content: space-between;
+
+  padding: 40px;
+
+  border-bottom: 1px solid #eaeaea;
+
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 20px;
+  }
+}
+
+.header-right {
+  margin: 0;
+
+  li:not(:last-of-type) {
+    margin-right: 30px;
+  }
+
+  li {
+    img + span,
+    svg + span {
+      margin-left: 10px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-top: 15px !important;
+  }
+}

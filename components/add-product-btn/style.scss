@@ -1,19 +1,4 @@
-.card-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  width: 32px;
-  height: 32px;
-  padding: 0;
-
-  background: #ffffff;
-  border: 2px solid #f2f2f2;
-  box-sizing: border-box;
-  border-radius: 8px;
-
-  cursor: pointer;
-
+.add-product-btn {
   &:hover {
     background-color: #f3f3f3;
   }

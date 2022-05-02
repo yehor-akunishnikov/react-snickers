@@ -1,13 +1,13 @@
 import React from 'react';
 
-import { CardButton } from '../add-product-button';
-import { FavoriteButton } from '../favorite-button';
+import { AddProductBtn } from '../add-product-btn';
+import { FavoriteBtn } from '../favorite-btn';
 
 import './style.scss';
 
 export const Card = () => (
   <div className="card">
-    <FavoriteButton />
+    <FavoriteBtn />
     <img
       className="card-img mb-15"
       src="https://cdn.filestackcontent.com/riAjXNhXSQOrBqVCCqtM"
@@ -19,7 +19,7 @@ export const Card = () => (
         <div className="lh-1">Ціна:</div>
         <span className="lh-1">6 000 грн.</span>
       </div>
-      <CardButton />
+      <AddProductBtn />
     </div>
   </div>
 );

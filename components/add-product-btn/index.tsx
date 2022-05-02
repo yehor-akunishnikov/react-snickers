@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { Plus } from '../../icons';
-import { IconBtn } from '../icon-btn';
+import { Icons } from '../../shared';
+import { IconBtn } from '../../shared';
 
 import './style.scss';
 
 export const AddProductBtn = () => {
-  return <IconBtn Icon={Plus} class="add-product-btn" />;
+  return <IconBtn Icon={Icons.Plus} class="add-product-btn" />;
 };

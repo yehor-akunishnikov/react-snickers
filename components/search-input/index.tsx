@@ -1,12 +1,12 @@
 import React from 'react';
 
-import { Search } from '../../icons';
+import { Icons } from '../../shared';
 
 import './style.scss';
 
 export const SearchInput = () => (
   <div className="input-container">
     <input placeholder="Пошук..." />
-    <Search />
+    <Icons.Search />
   </div>
 );

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Cart, Heart, User } from '../../icons';
+import { Icons } from '../../shared';
 
 import './style.scss';
 
@@ -21,14 +21,14 @@ export const Header = () => (
     </div>
     <ul className="header-right d-flex img-va-b">
       <li>
-        <Cart />
+        <Icons.Cart />
         <span>10 000 грн.</span>
       </li>
       <li>
-        <Heart />
+        <Icons.Heart />
       </li>
       <li>
-        <User />
+        <Icons.User />
       </li>
     </ul>
   </header>

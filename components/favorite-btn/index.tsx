@@ -1,9 +1,10 @@
 import React from 'react';
 
-import { Heart } from '../../icons';
-
-import { IconBtn } from '../icon-btn';
+import { Icons } from '../../shared';
+import { IconBtn } from '../../shared';
 
 import './style.scss';
 
-export const FavoriteBtn = () => <IconBtn Icon={Heart} class="favorite-btn" />;
+export const FavoriteBtn = () => {
+  return <IconBtn Icon={Icons.Heart} class="favorite-btn" />;
+};

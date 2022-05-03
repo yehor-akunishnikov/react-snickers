@@ -3,11 +3,13 @@ import React from 'react';
 import { Header } from '../components/header';
 import { Card } from '../components/card';
 import { SearchInput } from '../components/search-input';
+import { CartSidebar } from '../components/cart-sidebar';
 
 import './app.scss';
 
 export const App = () => (
   <div className="wrapper clear">
+    <CartSidebar />
     <Header />
     <div className="content p-30">
       <div className="d-flex flex-wrap justify-between align-center mb-30">

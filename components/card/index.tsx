@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { AddProductBtn } from '../add-product-btn';
-import { FavoriteBtn } from '../favorite-btn';
+import { AddProductBtn } from '../buttons/add-product-btn';
+import { FavoriteBtn } from '../buttons/favorite-btn';
 
 import './style.scss';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Icons } from '../../shared';
-import { IconBtn } from '../../shared';
+import { Icons } from '../../../shared';
+import { IconBtn } from '../../../shared';
 
 import './style.scss';
 

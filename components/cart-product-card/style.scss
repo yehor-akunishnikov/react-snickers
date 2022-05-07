@@ -1,11 +1,32 @@
 .cart-product-card {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 
   width: 100%;
+  padding: 30px 20px;
+  margin-bottom: 15px;
+
+  border: #f3f3f3 2px solid;
+  border-radius: 20px;
 
   .card-img {
-    width: 30%;
+    width: 20%;
     height: auto;
     vertical-align: bottom;
+  }
+
+  .card-body {
+    margin: 0 20px;
+
+    font-size: 16px;
+  }
+
+  .card-title {
+    margin-bottom: 5px;
+  }
+
+  .card-price {
+    font-weight: 700;
   }
 }

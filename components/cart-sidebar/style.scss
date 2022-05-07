@@ -7,7 +7,8 @@
   height: 100vh;
   width: 100%;
 
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.4);
+  display: none;
 }
 
 .drawler {
@@ -15,11 +16,26 @@
   top: 0;
   right: 0;
 
-  width: 50%;
+  width: 450px;
   height: 100%;
+  padding: 30px;
 
   background-color: #fff;
-  border-left: 3px solid #85d0ff;
-  opacity: 0.9;
-  border-radius: 20px 0 0 20px;
+
+  .cart-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 93%;
+  }
+
+  .cart-title {
+    margin-bottom: 30px;
+  }
+
+  .products-list {
+    max-height: 50vh;
+    overflow-y: scroll;
+  }
 }
